@@ -1,0 +1,71 @@
+<div class="jumbotron">
+        <div class="container text-center" id="pageTitle">
+          <h1>Font Previewer</h1>
+        </div>
+        
+</div>
+      
+<!--div class="header col-md-12"> 
+    <img class="col-md-1" id="navBarLogoId" src="../assets/smaller.png">
+    <h1 id="pageTitle">Font Previewer</h1> 
+    <nav>       
+          
+    </nav>      
+</div-->  
+
+  <!--div class="jumbotron"-->
+      <div class="container text-center">
+        <!--h1>Type text or phrase for preview:</h1-->      
+         <div class="row justify-content-md-center">
+            <input class="col-md-6" type="text" [(ngModel)]="textForFont" placeholder="Type text to preview">
+         </div>
+         <div class="row justify-content-md-center">
+            <div class="col-md-1" *ngFor="let category of categorySet">
+                <input type="checkbox"  id= "{{category}}_checkBox" value= {{category}} (change)="filterFontCards(category)">
+                <label for= `{{category}}`>{{category}}</label>
+               </div>
+         </div>
+         <div>
+            <input type="range" min="25" max="75" value=25 id="fontSize" (change)="adjustFontSize()">
+            <label for="fontSize">Font Size</label>    
+        </div>
+      </div>
+    <!--/div-->
+<!--div class="container">
+    <div class="row">
+            <div class="card-deck col-md-3" *ngFor="let font of filteredFonts">
+                <div class="card" > 
+                  <div class="card-header">
+                      <h5 class="card-title">{{font.Name}}</h5>
+                  </div>
+                  <div class="card-body">
+                      <div class="font-set">
+                        <p class="displayedFont" [style.font-size.px]="fontSize" [style.font-family]="font.Name">{{showValueToDisplay()}}</p>                
+                      </div>
+                  </div>
+                </div>                
+            </div>
+    </div>
+</div-->  
+
+
+
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+@font-face{
+  font-family: 'Chapter One';
+  src: url(.\fonts\ChapterOne.ttf);
+}
+@font-face{
+  font-family: 'Claudina';
+  src: url(.\fonts\Claudina.ttf);
+}
+footer {
+  background-color: rgb(37, 34, 32);
+  padding: 10px;
+}
+#navBarLogoId{
+  max-width: 10%;
+  height: auto;
+ 
+}
+.jumbotron{
+  background-color: white;
+}
+#displayedFont{
+  line-height: 1.6;
+}
+.card{
+  margin-bottom: 20px;
+}
+header,
+nav,
+footer,
+div { width: 100%; }
+
+.header {
+  padding: 20px 0;
+  background: white;
+  font: normal 2em/normal ;
+  text-align: center;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  background: goldenrod;
+  overflow: hidden;
+  background-color:#333;
+} 
+ 
+
+a {
+  padding: 5px 20px;
+  font: normal 1em/normal;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;       
+  }
+
+  #pageTitle{
+    font-family: 'Luckiest Guy', cursive;
+  }
+  .card-header{
+    background: goldenrod;
+    color: white;
+  }
+
+  .jumbotron {
+    margin-bottom: 0;
+    color: white;
+    background-color: goldenrod;
+
+  }
+ 
+  
+
+      
+    
+  
+
+
